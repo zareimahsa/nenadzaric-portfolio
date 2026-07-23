@@ -190,10 +190,16 @@ button:hover {
         width: 90%;
     }
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
 .gallery img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
+    width: 250px;    /* Change this number to make them smaller or larger */
+    height: auto;    /* Keeps the full image visible */
     border-radius: 8px;
 }
 }
