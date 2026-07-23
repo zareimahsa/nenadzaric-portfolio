@@ -167,7 +167,18 @@ button:hover {
     background-color: #6e4d34;
 }
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
 
+.gallery img {
+    width: 250px;
+    height: auto;
+    max-width: 100%;
+}
 @media (max-width: 768px) {
 
     .hero {
@@ -190,16 +201,5 @@ button:hover {
         width: 90%;
     }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
 
-.gallery img {
-    width: 250px;
-    height: auto;
-    max-width: 100%;
-}
 }
