@@ -178,7 +178,9 @@ button:hover {
     width: 250px;
     height: auto;
     max-width: 100%;
+    border-radius: 5px;
 }
+
 @media (max-width: 768px) {
 
     .hero {
@@ -200,6 +202,5 @@ button:hover {
     .artist-image img {
         width: 90%;
     }
-
-
+}
 }
